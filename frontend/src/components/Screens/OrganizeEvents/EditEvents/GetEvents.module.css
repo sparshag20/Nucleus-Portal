@@ -1,0 +1,268 @@
+@media (min-width:900px) {
+  .events2 {
+    padding-top: 4%;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(343deg, #FFFFFF 0%, #9aabe5 50%, #e78c8c 100%);
+  }
+
+  #card {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #header {
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #content {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  #text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+
+  #badge {
+    margin-left: 25%;
+    height: 35px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  /* Table CSS */
+
+/* To apply placeholder css select parent class i.e placeholder inside parent class search-bar-grp */
+.search_bar_grp{
+  display: flex;
+   position: relative;
+    border-radius: 70px;
+}
+  .search_bar{
+    height: 7vh;
+    width: 90%;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+  }
+  .search_bar_grp ::placeholder {
+    padding: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+  }
+
+  .search_bar_logo {
+    position: absolute;
+    right: 0;
+    height:100%;
+    width: 10%;
+    border:0px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+
+  .main {
+    display: flex;
+
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 40vh;
+  }
+
+  .poster {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+   #rsvp_div{
+
+      font-size: 3vh;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   }
+}
+
+@media (max-width:900px) and (min-width:500px) {
+ /* To apply placeholder css select parent class i.e placeholder inside parent class search-bar-grp */
+.search_bar_grp{
+  display: flex;
+   position: relative;
+    border-radius: 70px;
+}
+  .search_bar{
+    height: 7vh;
+    width: 90%;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+  }
+  .search_bar_grp ::placeholder {
+    padding: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+  }
+  #header {
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .search_bar_logo {
+    position: absolute;
+    right: 0;
+    height:100%;
+    width: 10%;
+    border:0px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+
+
+  .button{
+    height:30px;
+    font-size: 10px;
+    text-align: center;
+  }
+  #card {
+    width: 95%;
+    margin: auto;
+  }
+
+  #badge {
+    height: 15px;
+    font-size: 1vh;
+    
+  }
+
+  #content {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  #text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30vh;
+  }
+
+  .poster {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media(max-width:500px){
+  /* Search Bar */
+  .search_bar_grp{
+    display: flex;
+     position: relative;
+      border-radius: 70px;
+  }
+    .search_bar{
+      height: 5vh;
+      width: 80%;
+      border-top-left-radius: 70px;
+      border-bottom-left-radius: 70px;
+    }
+    .search_bar_grp ::placeholder {
+      padding: 4px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 15px;
+  
+    }
+  
+    .search_bar_logo {
+      position: absolute;
+      right: 0;
+      height:100%;
+      width: 20%;
+      border:0px;
+      border-top-right-radius: 70px;
+      border-bottom-right-radius: 70px;
+    }
+  .button{
+    height:24px;
+    font-size: 7px;
+    text-align: center;
+  }
+  #card {
+    width: 95%;
+    margin: auto;
+  }
+  #header {
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #badge {
+
+    height: 15px;
+    font-size: 12px;
+  }
+
+  #content {
+    font-size: 1.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  #text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20vh;
+  }
+
+  .poster {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #rsvp_div{
+    font-size: 2vh;
+  }
+}

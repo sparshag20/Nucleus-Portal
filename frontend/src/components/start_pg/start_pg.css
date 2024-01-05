@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+    .sec1{
+        height:100vh;
+    }
+    .sec1_img{
+        background-image: url('startbg.png');
+        background-repeat: no-repeat;
+        height: 120%;
+        background-position: center;
+        background-size:cover; 
+        
+    }
+    
+    .nav{
+        position: absolute;
+        top:0%;
+        height:auto;
+        width:100%;
+    }
+    .cardGrp{
+        position: absolute;
+         top: 20%;
+         left: 14%;
+         right: 10%;
+         height: 50%;
+         padding-bottom: 40px;
+    }
+    
+    #heading{
+        font-family:'Poppins', sans-serif;
+        position: absolute;
+        color: #ffff;
+        right: 8%;
+        font-size: 32px;
+        padding: 5%;
+        text-align: center;
+        padding-bottom: 10%;
+       
+    }
+    
+    #body{
+        font-family: 'Titillium Web', sans-serif;
+        position: absolute;
+        color: #ffff;
+        top:40%;
+        left:10%;
+        right: 15%;
+        text-align: center;
+        font-size: 20px;
+       
+    }
+
+
+@media (max-width:1025px) {
+
+        
+        #body{
+           
+            visibility: hidden;
+        }
+        .cardGrp{
+            position: absolute;
+             top:3%;
+             left: 1%;
+             right: 1%;
+             display:flex;
+            flex-direction: column;
+            padding: 3%;
+            height: auto;
+            
+        }
+        #heading{
+            font-family:'Poppins', sans-serif;
+            position: absolute;
+            color: #ffff;
+            right: 0%;
+            top:0;
+            left:0;
+            font-size: 28px;
+            padding: 5%;
+            text-align: center;
+            padding: 0;  
+        }
+        
+    
+    }
+    

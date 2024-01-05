@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.Login_pg{
+    height:40%;
+}
+
+#cardt{
+    
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    top:20px;
+    left:35px;
+    font-size: 30px;
+    padding-bottom: 10px;
+   
+}
+
+
